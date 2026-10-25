@@ -1,0 +1,12 @@
+(() => {
+ 'use strict';const cfg=window.DAT_CLOUD_CONFIG;let loaded;
+ const valid=cfg&&/^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(cfg.supabaseUrl)&&!!cfg.publishableKey;
+ function media(value){if(typeof value!=='string'||/[\s<>"'`]/.test(value))return '';if(value.startsWith(cfg.base+'assets/')||value.startsWith(cfg.base+'uploads/'))return value;try{const u=new URL(value);return (u.origin===cfg.supabaseUrl&&u.pathname.startsWith('/storage/v1/object/public/portfolio-public/'))||(u.origin===new URL(cfg.portfolioUrl).origin&&u.href.startsWith(cfg.portfolioUrl)&&(u.pathname.includes('/uploads/')||u.pathname.includes('/assets/')))?value:''}catch{return ''}}
+ const fallback=()=>fetch(cfg.base+'portfolio.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Portfolio unavailable.');return r.json()});
+ async function read(){if(!valid)return fallback();try{const r=await fetch(cfg.supabaseUrl+'/rest/v1/portfolio_public?id=eq.1&select=snapshot',{headers:{apikey:cfg.publishableKey},cache:'no-store'});if(!r.ok)throw Error('Cloud unavailable');const rows=await r.json();return rows[0]?.snapshot||await fallback()}catch{return fallback()}}
+ const site=()=>loaded||(loaded=read());
+ const project=async slug=>{const d=await site();const p=d.projects.find(p=>p.slug===slug);if(!p)throw Error('Project not published');return {project:p}};
+ async function contact(values){if(!valid)throw Error('Online contact is not connected yet. Please use the email or phone link.');let turnstileToken='';if(cfg.turnstileSiteKey){turnstileToken=document.querySelector('[name="cf-turnstile-response"]')?.value||'';if(!turnstileToken)throw Error('Please complete the spam check.')}const r=await fetch(cfg.supabaseUrl+'/functions/v1/portfolio-api?route=%2Fcontact',{method:'POST',headers:{apikey:cfg.publishableKey,'Content-Type':'application/json'},body:JSON.stringify({...values,turnstileToken})});const d=await r.json();if(!r.ok)throw Error(d.error||'Message could not be sent.');if(cfg.turnstileSiteKey&&window.turnstile)window.turnstile.reset();return d}
+ window.DAT_DATA={site,project,contact};window.DAT_MEDIA=media;
+ if(cfg.turnstileSiteKey)document.addEventListener('DOMContentLoaded',()=>{const widget=document.createElement('div');widget.className='cf-turnstile';widget.dataset.sitekey=cfg.turnstileSiteKey;document.querySelector('#contactForm button[type=submit]')?.before(widget);const script=document.createElement('script');script.src='https://challenges.cloudflare.com/turnstile/v0/api.js';script.async=true;script.defer=true;document.head.append(script)});
+})();

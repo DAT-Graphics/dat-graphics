@@ -1,0 +1,620 @@
+{
+  "site": {
+    "name": "Dagim Tesfaye Shewangizaw",
+    "initials": "DAT",
+    "eyebrow": "DAGIM TESFAYE SHEWANGIZAW / GRAPHIC DESIGNER",
+    "headline1": "Visual Stories",
+    "headline2": "for Brands that Matter.",
+    "tagline": "I’m Dagim Tesfaye Shewangizaw, a graphic designer and social media manager in Addis Ababa. I create identities, campaign artwork and visual stories for print and digital platforms.",
+    "aboutTitle": "The eye behind the work.",
+    "aboutText": "Based in Addis Ababa, Ethiopia, my practice moves between graphic design and social media management — from the first idea to the final piece.",
+    "aboutIntro": "I’m Dagim Tesfaye Shewangizaw. I shape identities, build campaigns and give brands a visual voice.",
+    "aboutRole": "Graphic Designer & Social Media Manager",
+    "aboutCompany": "Unison Tour and Travel",
+    "aboutTools": "Photoshop, Illustrator, InDesign",
+    "aboutCollaborators": "Yeab Kasa, Marufi Photography",
+    "contactPhone": "+251 915 571 645",
+    "contactEmail": "dagijr4@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "availability": "GRAPHIC DESIGN & SOCIAL MEDIA",
+    "instagram": "",
+    "behance": "",
+    "linkedin": "",
+    "dribbble": "",
+    "portrait": "/dat-graphics/uploads/dagim-studio-portrait.webp",
+    "aboutImage": "/dat-graphics/uploads/dagim-spotlight-front.webp",
+    "aboutSecondaryImage": "/dat-graphics/uploads/dagim-spotlight-side.webp",
+    "showreel": "",
+    "footerNote": "DAT GRAPHICS — ADDIS ABABA, ETHIOPIA.",
+    "experience": "Graphic design & social media",
+    "brandName": "DAT Graphics",
+    "logo": "/dat-graphics/assets/dat-graphics-logo.png",
+    "isDemo": false,
+    "services": [
+      {
+        "title": "Brand Identity",
+        "desc": "Logo treatments, visual identities and branded presentation mockups."
+      },
+      {
+        "title": "Social Media & Campaigns",
+        "desc": "Promotional posts, stories and social media management."
+      },
+      {
+        "title": "Posters & Event Design",
+        "desc": "Festival graphics, music announcements and cultural posters."
+      },
+      {
+        "title": "Print & Merchandise",
+        "desc": "Wide-format signage, print layouts and apparel artwork."
+      }
+    ],
+    "companies": [
+      {
+        "company": "Unison Tour and Travel",
+        "logo": "/dat-graphics/uploads/company-unison.webp",
+        "role": "Graphic Designer & Social Media Manager",
+        "period": "Current position",
+        "description": "Graphic design and social media management for Unison Tour and Travel.",
+        "current": true
+      },
+      {
+        "company": "Hamak Hiking",
+        "logo": "/dat-graphics/uploads/company-hamak.webp",
+        "role": "Graphic Design & Social Media Management",
+        "period": "Sep 2023 — Oct 2024",
+        "description": "Social media management and graphic design for the hiking community.",
+        "current": false
+      },
+      {
+        "company": "Selo Hiking",
+        "logo": "/dat-graphics/uploads/company-selo.webp",
+        "role": "Graphic Design & Social Media Management",
+        "period": "Selected experience",
+        "description": "Graphic design and social media management for outdoor trips and hiking experiences.",
+        "current": false
+      },
+      {
+        "company": "Z-Ark Printing Service",
+        "logo": "/dat-graphics/uploads/company-z-ark.webp",
+        "role": "Graphic Design & Social Media Management",
+        "period": "Selected experience",
+        "description": "Graphic design and social media management in a print and branding environment.",
+        "current": false
+      }
+    ],
+    "categories": [
+      "Brand Identity",
+      "Event Campaigns",
+      "Social Media",
+      "Cultural Posters",
+      "Merchandise",
+      "Print & Signage"
+    ]
+  },
+  "projects": [
+    {
+      "id": "dat-nail-by-eyu",
+      "slug": "nail-by-eyu",
+      "title": "Nail by Eyu / Identity",
+      "category": "Brand Identity",
+      "year": "Selected work",
+      "short": "A green-and-gold beauty identity, carried through logo variations, social formats and presentation mockups.",
+      "challenge": "The work brings a nail-care name into a recognisable visual system across a logo, social posts and branded applications.",
+      "approach": "A stylised nail symbol and star sit alongside a serif wordmark. Deep green, gold and pale-yellow variants connect the square and vertical layouts. The same identity appears on a shopping-bag mockup and a phone-icon presentation.",
+      "result": "The identity extends across seven pieces: two horizontal logo treatments, a square social graphic, two vertical graphics, a shopping-bag mockup and a phone-icon presentation.",
+      "cover": "/dat-graphics/uploads/artwork-25-eyu-insta-post.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-25-eyu-insta-post.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-27-eyu-02.webp",
+        "/dat-graphics/uploads/artwork-28-eyu-03.webp",
+        "/dat-graphics/uploads/artwork-25-eyu-insta-post.webp",
+        "/dat-graphics/uploads/artwork-26-eyu-insta-stori.webp",
+        "/dat-graphics/uploads/artwork-29-eyu.webp",
+        "/dat-graphics/uploads/artwork-19-bag333-copy.webp",
+        "/dat-graphics/uploads/artwork-05-app.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The curved nail symbol creates a compact signature, while a repeated motif gives the logo backgrounds texture. The bag and phone mockups explore how the same identity reads at different scales.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": true,
+      "published": true,
+      "isDemo": false,
+      "order": 0
+    },
+    {
+      "id": "dat-ashenda-fest",
+      "slug": "ashenda-fest",
+      "title": "Ashenda / Festival",
+      "category": "Event Campaigns",
+      "year": "Selected work",
+      "short": "Festival poster and backdrop artwork with a shared black-and-gold identity and Ethiopian decorative borders.",
+      "challenge": "Festival communication needs a strong event name alongside performers, venue, ticket tiers and supporting marks.",
+      "approach": "The poster uses a large Ashenda title, illustrated women and grouped ticket information. Black-and-gold contrast and geometric border details continue into the matching backdrop layout.",
+      "result": "A square promotional poster and matching backdrop layout share the Ashenda title, ornamental borders and black-and-gold palette.",
+      "cover": "/dat-graphics/uploads/artwork-06-ashenda-1x1-copy.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-06-ashenda-1x1-copy.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-06-ashenda-1x1-copy.webp",
+        "/dat-graphics/uploads/artwork-18-backdrop-copy.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The poster carries performers, venue and ticket information. The backdrop gives the festival name more space, keeping the same decorative language across both formats.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": true,
+      "published": true,
+      "isDemo": false,
+      "order": 1
+    },
+    {
+      "id": "dat-z-ark-seasonal",
+      "slug": "z-ark-seasonal",
+      "title": "Z-Ark / Seasonal Series",
+      "category": "Social Media",
+      "year": "Selected work",
+      "short": "Fasika and New Year story graphics in coordinated blue and light colour variations.",
+      "challenge": "Seasonal greeting graphics need to keep the message visible in a narrow story format while leaving room for expressive imagery.",
+      "approach": "The Fasika pair combines sculptural religious imagery with a stacked Amharic greeting. The New Year pair uses yellow flowers, a central character and white lettering. Blue and light versions retain the same compositions.",
+      "result": "Four vertical graphics form two coordinated pairs: blue and light versions of the Fasika greeting and the New Year composition.",
+      "cover": "/dat-graphics/uploads/artwork-14-z-ark-fasika-copy.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-14-z-ark-fasika-copy.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-14-z-ark-fasika-copy.webp",
+        "/dat-graphics/uploads/artwork-15-z-ark-fasika-white-copy.webp",
+        "/dat-graphics/uploads/artwork-38-new-year-story.webp",
+        "/dat-graphics/uploads/artwork-40-ney-year-story-white-copy.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The Fasika pair uses dramatic light and sculptural texture. The New Year pair combines a bright floral frame with flowing Amharic lettering, showing how the palette changes the mood of a shared composition.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": true,
+      "published": true,
+      "isDemo": false,
+      "order": 2
+    },
+    {
+      "id": "dat-taxi-poster",
+      "slug": "taxi-poster",
+      "title": "Taxi / Film Poster",
+      "category": "Cultural Posters",
+      "year": "Selected work",
+      "short": "A cinematic poster study built from a portrait, a taxi and a dramatic amber landscape.",
+      "challenge": "A film-style poster must suggest a story through a single image while keeping the title and release message distinct.",
+      "approach": "The artwork layers a large portrait above a vehicle and road scene. Warm highlights guide the eye toward the face and the TAXI title, with a small Coming Soon message completing the composition.",
+      "result": "A finished portrait-format poster combines the TAXI title, dramatic portraiture, a vehicle and a road scene in a single cinematic composition.",
+      "cover": "/dat-graphics/uploads/artwork-47-taxi-poster.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-47-taxi-poster.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-47-taxi-poster.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "A warm amber palette links the face, sky and vehicle. Contrasting scales give the portrait a leading role, while the road and taxi draw the eye toward the title.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": true,
+      "published": true,
+      "isDemo": false,
+      "order": 3
+    },
+    {
+      "id": "dat-cloud-lounge",
+      "slug": "cloud-lounge",
+      "title": "Cloud Lounge / Events",
+      "category": "Event Campaigns",
+      "year": "Selected work",
+      "short": "Two purple event graphics using performer portraits, dimensional lettering and nightlife lighting.",
+      "challenge": "Event artwork must place the performer, venue and occasion in a clear hierarchy within a compact vertical layout.",
+      "approach": "Purple and magenta light, cloud textures and bright dimensional type connect the two pieces. The artist portrait anchors one graphic; the companion composition gives the venue name and occasion more space.",
+      "result": "Two vertical Cloud Lounge promotional graphics connect performer-led artwork with a venue-focused event layout.",
+      "cover": "/dat-graphics/uploads/artwork-32-habecho-cloud-copy.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-32-habecho-cloud-copy.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-32-habecho-cloud-copy.webp",
+        "/dat-graphics/uploads/artwork-33-habecho-cloudartboard-1-copy.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "Layered lettering, glowing highlights and clouds bring depth to the layouts. Portraits remain distinct from the supporting venue and event information.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 4
+    },
+    {
+      "id": "dat-rufi-review",
+      "slug": "rufi-review",
+      "title": "Rufi Review / Teasers",
+      "category": "Social Media",
+      "year": "Selected work",
+      "short": "A gold-toned teaser sequence with a wordmark-led announcement and two character compositions.",
+      "challenge": "A teaser needs to establish a recognisable name while creating anticipation with limited information.",
+      "approach": "The Rufi Review lettering remains the focal point across three gold-and-cream compositions. Repeated Coming Soon typography, a character holding a phone and a storefront scene provide different visual entry points.",
+      "result": "Three distinct teaser graphics establish the Rufi Review name through a wordmark-led announcement, a phone-holding character and a storefront scene.",
+      "cover": "/dat-graphics/uploads/artwork-42-rufi-review-sung-1.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-42-rufi-review-sung-1.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-20-coming-soon.webp",
+        "/dat-graphics/uploads/artwork-42-rufi-review-sung-1.webp",
+        "/dat-graphics/uploads/artwork-43-rufi-review-sung-recovered-copy-1.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "Gold lettering and repeated Coming Soon messages connect the sequence. The three compositions vary the balance of type, character and setting while keeping the same colour family.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 5
+    },
+    {
+      "id": "dat-music-release-artwork",
+      "slug": "music-release-artwork",
+      "title": "Music / Release Artwork",
+      "category": "Event Campaigns",
+      "year": "Selected work",
+      "short": "Portrait-led announcement graphics for Veronica Adane and a separate music-release design.",
+      "challenge": "Music announcements need a memorable artist image with enough contrast for a title and release message.",
+      "approach": "The Veronica Adane design combines a large portrait, metallic Amharic lettering and a cool cinematic background. The companion release graphic uses a warmer landscape, large lettering and a portrait placed to the right.",
+      "result": "Two portrait-led music announcements show contrasting visual directions: a cool metallic composition and a warm landscape treatment.",
+      "cover": "/dat-graphics/uploads/artwork-49-veronica-copyy.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-49-veronica-copyy.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-49-veronica-copyy.webp",
+        "/dat-graphics/uploads/artwork-16-abd.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The Veronica Adane graphic pairs a prominent artist portrait with dimensional Amharic lettering. The companion release design uses warm light and a landscape to frame its portrait and title.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 6
+    },
+    {
+      "id": "dat-saturday-fest",
+      "slug": "saturday-fest",
+      "title": "Saturday / Fest",
+      "category": "Event Campaigns",
+      "year": "Selected work",
+      "short": "A vertical festival graphic with a performer collage, high-contrast title and compact event details.",
+      "challenge": "The poster brings multiple performers and practical event information into a single promotional image.",
+      "approach": "A large lead portrait sits above two supporting performers. Yellow SATURDAY lettering cuts across the blue-green background, while ticket, date and location information is arranged along the lower edge.",
+      "result": "A complete vertical Saturday Fest poster brings performer portraits, event naming, ticket information and venue details into one composition.",
+      "cover": "/dat-graphics/uploads/artwork-31-ha.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-31-ha.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-31-ha.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The yellow title creates a strong break between the portrait collage and the practical details below. The blue-green background keeps the different image layers visually connected.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 7
+    },
+    {
+      "id": "dat-cultural-greetings",
+      "slug": "cultural-greetings",
+      "title": "Culture / Seasonal Greetings",
+      "category": "Cultural Posters",
+      "year": "Selected work",
+      "short": "Blue-toned graphics for Adwa, Gena, Timket, an Islamic holiday greeting and a motivational story.",
+      "challenge": "These pieces adapt distinct cultural subjects into a series with a recognisable colour palette and footer treatment.",
+      "approach": "Deep blue backgrounds, orange accents and patterned lower borders connect the artwork. Each composition uses a different central subject: a rider and flag, traditional games, a lantern, a harmonica and lemon, or hand-lettered encouragement.",
+      "result": "Five designs carry the shared visual language across four landscape greetings and a vertical motivational graphic.",
+      "cover": "/dat-graphics/uploads/artwork-17-adwa-copy.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-17-adwa-copy.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-04-67813385-sl-072123-61650-09-1-converted-01.webp",
+        "/dat-graphics/uploads/artwork-17-adwa-copy.webp",
+        "/dat-graphics/uploads/artwork-30-gena-copy.webp",
+        "/dat-graphics/uploads/artwork-48-timket-copy.webp",
+        "/dat-graphics/uploads/artwork-50-walpaper.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "A consistent blue palette and patterned footer provide continuity, while the main image changes to suit each subject. Cultural references remain central to the message rather than becoming background decoration.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 8
+    },
+    {
+      "id": "dat-dat-seasonal-posters",
+      "slug": "dat-seasonal-posters",
+      "title": "DAT / Cultural Stories",
+      "category": "Cultural Posters",
+      "year": "Selected work",
+      "short": "A selection of personal DAT Graphics posters exploring Ethiopian holidays, historical imagery and Amharic lettering.",
+      "challenge": "The series explores how a cultural theme can be carried by a strong image and a short message in a vertical format.",
+      "approach": "The selection moves between dark Meskel imagery, warm religious compositions, New Year flowers and a historical rider silhouette. Distinct colour palettes and Amharic lettering give each poster its own tone.",
+      "result": "Seven DAT Graphics posters form a collection of cultural and seasonal stories in varied vertical compositions.",
+      "cover": "/dat-graphics/uploads/artwork-34-happy-new-year-2018.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-34-happy-new-year-2018.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-21-dat-graphices-walpaper-copy.webp",
+        "/dat-graphics/uploads/artwork-23-dat-st-copy.webp",
+        "/dat-graphics/uploads/artwork-24-dat-stories-copy.webp",
+        "/dat-graphics/uploads/artwork-34-happy-new-year-2018.webp",
+        "/dat-graphics/uploads/artwork-35-hosaena-pster-copy.webp",
+        "/dat-graphics/uploads/artwork-37-minilik-recovered.webp",
+        "/dat-graphics/uploads/artwork-39-newyear.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The series uses Amharic lettering, warm religious imagery, New Year flowers, Meskel fire and a historical rider silhouette. Each subject shapes its own palette, lighting and focal point.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 9
+    },
+    {
+      "id": "dat-dat-graphics-identity",
+      "slug": "dat-graphics-identity",
+      "title": "DAT Graphics / Brand Study",
+      "category": "Brand Identity",
+      "year": "Selected work",
+      "short": "A monochrome DAT Graphics brand image using metallic barbed-wire forms and a restrained wordmark.",
+      "challenge": "A personal brand image can communicate a visual point of view through texture, contrast and the treatment of a mark.",
+      "approach": "The supplied vertical artwork places the DAT Graphics identity against a near-black background. Metallic wire forms frame the composition and introduce a sharp, sculptural texture.",
+      "result": "A vertical personal-brand image presents the DAT Graphics mark through a dark, sculptural visual treatment.",
+      "cover": "/dat-graphics/uploads/artwork-22-dat-graphices-walpaper.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-22-dat-graphices-walpaper.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-22-dat-graphices-walpaper.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The low-key wordmark and metallic wire forms create a restrained composition. Texture and controlled highlights give the image its character without adding a dense text layer.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 10
+    },
+    {
+      "id": "dat-merchandise-collection",
+      "slug": "merchandise-collection",
+      "title": "Merch / Graphic Apparel",
+      "category": "Merchandise",
+      "year": "Selected work",
+      "short": "T-shirt artwork and promotional mockups featuring Ethiopian history, popular culture and portrait graphics.",
+      "challenge": "Apparel graphics need a readable central composition and a presentation that shows how the design sits on a garment.",
+      "approach": "The collection uses black and white T-shirt mockups, portrait collages and bold lettering. Vertical promotional layouts frame the garments with supporting background graphics and ordering messages.",
+      "result": "Five garment and promotional mockups present graphic apparel through black and white T-shirts, portrait artwork and cultural references.",
+      "cover": "/dat-graphics/uploads/artwork-03-419849990-2e47793b-8973-4fee-897c-841e2f0540bc-copy.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-03-419849990-2e47793b-8973-4fee-897c-841e2f0540bc-copy.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-01-1-recovered.webp",
+        "/dat-graphics/uploads/artwork-02-2.webp",
+        "/dat-graphics/uploads/artwork-03-419849990-2e47793b-8973-4fee-897c-841e2f0540bc-copy.webp",
+        "/dat-graphics/uploads/artwork-10-untitled-1-copy.webp",
+        "/dat-graphics/uploads/artwork-36-merch-st-copy.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The collection shows how a central graphic sits on a garment, alongside vertical layouts that present the merchandise. These are visual mockups of the artwork and its applications.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 11
+    },
+    {
+      "id": "dat-quran-learning",
+      "slug": "quran-learning",
+      "title": "Quran Learning / Promotion",
+      "category": "Print & Signage",
+      "year": "Selected work",
+      "short": "Square and vertical promotional layouts centred on a Quran image, Amharic text and warm paper textures.",
+      "challenge": "A learning-service promotion needs to give its headline, subject image and contact information a clear order.",
+      "approach": "Warm parchment tones and burgundy lettering create the shared palette. A large Quran image anchors both formats, with the square and vertical compositions adjusting the balance between text and illustration.",
+      "result": "A square promotional layout and a vertical adaptation share the same warm paper texture, burgundy lettering and Quran imagery.",
+      "cover": "/dat-graphics/uploads/artwork-08-artboard-2.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-08-artboard-2.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-08-artboard-2.webp",
+        "/dat-graphics/uploads/artwork-07-artboard-1.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The two formats change the balance between headline and illustration while retaining the same visual character. Contact details are grouped with the service information inside the artwork.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 12
+    },
+    {
+      "id": "dat-kidus-yared",
+      "slug": "kidus-yared",
+      "title": "Kidus Yared / Poster",
+      "category": "Cultural Posters",
+      "year": "Selected work",
+      "short": "A gold-and-green portrait poster combining a traditional instrument, Amharic lettering and an ornamental frame.",
+      "challenge": "The poster unites a cultural subject, a large title and supporting text in a narrow composition.",
+      "approach": "A portrait sits inside a circular frame beneath a large traditional-instrument form. Layered gold and green tones connect the background, lettering and decorative elements.",
+      "result": "A complete vertical Kidus Yared poster combines portraiture, traditional-instrument imagery and large Amharic lettering.",
+      "cover": "/dat-graphics/uploads/artwork-09-kidus-yared-2.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-09-kidus-yared-2.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-09-kidus-yared-2.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The circular portrait frame creates a focal point within the larger instrument silhouette. Gold and green tones carry through the lettering, ornament and layered background.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 13
+    },
+    {
+      "id": "dat-getahun-gizaw",
+      "slug": "getahun-gizaw",
+      "title": "Getahun Gizaw / Visual Identity",
+      "category": "Brand Identity",
+      "year": "Selected work",
+      "short": "A portrait-and-book identity composition adapted into a square image and a wide channel banner.",
+      "challenge": "The identity needs to remain recognisable when moving between a square profile-style composition and a very wide banner.",
+      "approach": "The square design combines a portrait, book imagery, an orange circular frame and the Getahun Gizaw Official name. The wide format repeats the identity with Ethiopian-inspired border details and a dark teal field.",
+      "result": "A square identity composition and a wide channel-banner layout carry the Getahun Gizaw Official name through two contrasting proportions.",
+      "cover": "/dat-graphics/uploads/artwork-11-yared-ethiopia-1400s-recovered-12.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-11-yared-ethiopia-1400s-recovered-12.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-11-yared-ethiopia-1400s-recovered-12.webp",
+        "/dat-graphics/uploads/artwork-12-yared-ethiopia-1400s-11-11.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The portrait, open book and orange frame anchor the square composition. In the wide banner, the identity sits beside a broad text area and patterned Ethiopian-inspired borders.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 14
+    },
+    {
+      "id": "dat-food-retail-signage",
+      "slug": "food-retail-signage",
+      "title": "Food & Retail / Signage",
+      "category": "Print & Signage",
+      "year": "Selected work",
+      "short": "Wide-format promotional layouts for Kana Peanut Butter and Market and a soup offering.",
+      "challenge": "Wide signage must make a product, business name and essential contact details visible across a shallow canvas.",
+      "approach": "The Kana layout pairs a shopping cart with peanut-butter imagery and large bilingual lettering on yellow. The soup banner uses a burgundy-and-yellow split, a centred product image and a separate contact block.",
+      "result": "Two wide-format layouts present a market promotion and a soup offering through product imagery, prominent naming and compact contact information.",
+      "cover": "/dat-graphics/uploads/artwork-13-z-ark-3-8mx1meter.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-13-z-ark-3-8mx1meter.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-13-z-ark-3-8mx1meter.webp",
+        "/dat-graphics/uploads/artwork-46-shorbaa.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "The shallow format calls for a clear horizontal reading order. Product imagery supplies the focal points, while strong yellow, green and burgundy fields separate the supporting information.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 15
+    },
+    {
+      "id": "dat-messi-poster",
+      "slug": "messi-poster",
+      "title": "Messi / Tribute Poster",
+      "category": "Cultural Posters",
+      "year": "Selected work",
+      "short": "A football tribute composition using a trophy-led portrait montage and gold lettering.",
+      "challenge": "A tribute poster combines several moments and a dominant subject into a single readable vertical image.",
+      "approach": "The artwork layers Messi portraits and football imagery around a central trophy composition. Gold accents, handwritten-style lettering and a dark background connect the different image scales.",
+      "result": "A vertical football tribute poster brings together a trophy-led composition, layered player portraits and gold typography.",
+      "cover": "/dat-graphics/uploads/artwork-41-nnn-1.webp",
+      "heroCover": "/dat-graphics/uploads/artwork-41-nnn-1.webp",
+      "gallery": [
+        "/dat-graphics/uploads/artwork-41-nnn-1.webp"
+      ],
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Design details",
+          "text": "Large and small portraits create movement through the image. Gold accents and a dark background connect the different football moments into one visual tribute.",
+          "media": "",
+          "caption": ""
+        }
+      ],
+      "featured": false,
+      "published": true,
+      "isDemo": false,
+      "order": 16
+    }
+  ]
+}

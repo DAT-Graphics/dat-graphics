@@ -1,0 +1,17 @@
+{
+  "name": "DAT Graphics — Dagim Tesfaye Shewangizaw",
+  "short_name": "DAT Graphics",
+  "start_url": "/dat-graphics/",
+  "display": "standalone",
+  "background_color": "#001220",
+  "theme_color": "#001220",
+  "icons": [
+    {
+      "src": "/dat-graphics/assets/dat-graphics-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "scope": "/dat-graphics/"
+}

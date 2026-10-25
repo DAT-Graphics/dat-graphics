@@ -1,0 +1,25 @@
+/* Full artwork is contained in a separate image well; its edges stay visible. */
+:root{--art-surface:#001220;--art-text:#FFFFFF;--art-muted:rgba(255,255,255,.67);--art-border:rgba(255,255,255,.16)}
+.project-card{display:grid;grid-template-rows:minmax(0,1fr) auto auto;background:var(--art-surface);border-color:var(--art-border)}
+.project-card:after{display:none}
+.project-card img,.project-card:hover img{width:100%;height:100%;min-height:0;object-fit:contain;object-position:center;transform:none;filter:none;background:var(--art-surface)}
+.project-card .project-overline{position:static;padding:9px 11px 0;color:var(--art-muted);font-size:8px;line-height:1.35}
+.project-card .project-data{position:static;inset:auto;padding:4px 11px 12px;gap:7px;background:var(--art-surface);color:var(--art-text)}
+.project-card .project-data h3{font-size:clamp(15px,1.5vw,21px);line-height:1.15;margin:0 0 4px}
+.project-card .project-data p{font-size:8px;color:var(--art-muted);margin:0}
+.project-card .project-arrow{color:var(--art-text);border-color:var(--art-border);background:transparent;width:24px;height:24px}
+.hero-gallery .gallery-panel{background:var(--art-surface)}
+.hero-gallery .gallery-panel img,.hero-gallery .gallery-panel:is(:hover,:focus-visible) img{width:100%;height:calc(100% - 84px);margin-top:28px;object-fit:contain;object-position:center;filter:none;scale:1;transform:none;background:var(--art-surface)}
+.hero-gallery .gallery-panel:after{display:none}
+.hero-gallery .gallery-panel .panel-index{top:10px;color:var(--art-muted);font-size:7px;text-shadow:none}
+.hero-gallery .gallery-panel .panel-title{color:var(--art-text);text-shadow:none}
+.hero-gallery .gallery-panel .panel-category{color:var(--art-muted);text-shadow:none}
+.hero-gallery .gallery-panel .panel-arrow{top:7px;color:var(--art-text);border-color:var(--art-border);background:var(--art-surface);width:22px;height:22px}
+.case-image,.case-gallery img,.case-gallery video,.case-media img,.case-media video{object-fit:contain;object-position:center;height:auto;max-height:82vh;background:var(--art-surface)}
+.transition-image{object-fit:contain;background:var(--art-surface)}
+.admin-project>img,.media-cover>img,.gallery-item img,.mini-project-preview img,.media-thumb img,.media-thumb video,.visual-story-preview img{object-fit:contain;object-position:center;filter:none;background:var(--art-surface)}
+@media(max-width:720px){.hero-gallery .gallery-panel img,.hero-gallery .gallery-panel:is(:hover,:focus-visible) img{height:calc(100% - 67px);margin-top:24px}.hero-gallery .gallery-panel .panel-title{font-size:12px}.project-card .project-data h3{font-size:15px}.project-card .project-data{padding:4px 9px 10px}.project-card .project-overline{padding:7px 9px 0}}
+/* Portrait previews also preserve the complete supplied photograph. */
+.about-frame img,.about-secondary-photo img,.setting-img{object-fit:contain;object-position:center}
+
+.hero-gallery .gallery-panel .panel-arrow{top:5px;width:19px;height:19px}

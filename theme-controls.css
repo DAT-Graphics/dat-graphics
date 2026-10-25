@@ -1,0 +1,17 @@
+/* One visitor preference controls the whole public site and CMS. */
+:root{color-scheme:dark}
+.theme-toggle{display:inline-grid;place-items:center;flex:none;width:38px;height:38px;padding:0;border:1px solid var(--line);border-radius:50%;background:rgba(255,255,255,.04);color:var(--text,var(--light));cursor:pointer;transition:background .2s,border-color .2s,color .2s;line-height:1}
+.theme-toggle:hover{border-color:var(--brand-green);background:rgba(1,184,84,.1)}
+.theme-toggle:focus-visible{outline:2px solid var(--brand-green);outline-offset:4px}
+.theme-toggle svg{display:block;width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.theme-toggle .theme-icon-moon{display:none}
+html[data-theme="light"] .theme-toggle{background:#FFFFFF;color:#001220;border-color:rgba(0,18,32,.22)}
+html[data-theme="light"] .theme-toggle:hover{background:rgba(1,184,84,.08);border-color:#01B854}
+html[data-theme="light"] .theme-toggle .theme-icon-sun{display:none}
+html[data-theme="light"] .theme-toggle .theme-icon-moon{display:block}
+.case-header-actions{display:flex;align-items:center;gap:12px}
+.login-screen{position:relative}
+.login-theme-toggle{position:absolute;top:20px;right:20px}
+@media(max-width:720px){.topbar-right .theme-toggle{width:31px;height:31px}.case-header-actions{gap:8px}.case-header-actions .theme-toggle,.case-header-actions .top-circle{width:31px;height:31px}.theme-toggle svg{width:17px;height:17px}.admin-actions{gap:10px}.admin-actions .theme-toggle{width:32px;height:32px}}
+@media(max-width:720px){.case-header .case-lockup{max-width:78px}.admin-header{flex-wrap:wrap}}
+@media(max-width:1050px){.topbar-right>#availability{display:none}}
