@@ -1,8 +1,8 @@
 /* Contact dock: platform marks on raised, illuminated surfaces. */
-.social-links.contact-social{display:block;max-width:354px;margin-top:34px;--contact-ink:#fff;--contact-muted:rgba(255,255,255,.62)}
+.social-links.contact-social{display:block;max-width:354px;margin-top:34px;--platform:#01b854;--contact-ink:#fff;--contact-muted:rgba(255,255,255,.62)}
 .contact-social .contact-social-caption{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;font-size:8px;letter-spacing:2.2px;color:var(--contact-muted)}.contact-social-caption>span{color:#01b854;font-size:19px;line-height:1}
 .contact-social .contact-platforms{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding:0 3px 19px;perspective:650px}
-.contact-social a.contact-tile{--platform:#01b854;position:relative;display:block;aspect-ratio:1;min-width:0;padding:0;border:0!important;text-decoration:none;isolation:isolate;transform-style:preserve-3d;transform:rotateX(11deg) rotateY(-12deg);transition:transform .35s cubic-bezier(.2,.8,.2,1);outline-offset:9px}
+.contact-social a.contact-tile{position:relative;display:block;aspect-ratio:1;min-width:0;padding:0;border:0!important;text-decoration:none;isolation:isolate;transform-style:preserve-3d;transform:rotateX(11deg) rotateY(-12deg);transition:transform .35s cubic-bezier(.2,.8,.2,1);outline-offset:9px}
 .contact-social .contact-tile--facebook{--platform:#1877f2}.contact-social .contact-tile--instagram{--platform:#d52c91}.contact-social .contact-tile--youtube{--platform:#f00829}
 .contact-tile-back{position:absolute;inset:3px -2px -7px 5px;border-radius:20px;background:color-mix(in srgb,var(--platform) 46%,#001220);box-shadow:1px 12px 20px rgba(0,0,0,.22);transform:translateZ(-5px);transition:box-shadow .35s}
 .contact-tile-face{position:absolute;inset:0;display:grid;place-items:center;border-radius:19px;overflow:hidden;color:#fff;background:linear-gradient(145deg,color-mix(in srgb,var(--platform) 92%,#fff),color-mix(in srgb,var(--platform) 72%,#001220));border:1px solid rgba(255,255,255,.32);box-shadow:inset 0 2px 1px rgba(255,255,255,.38),inset 0 -3px 7px rgba(0,0,0,.16),0 0 25px color-mix(in srgb,var(--platform) 16%,transparent);transform:translateZ(1px)}
@@ -18,3 +18,5 @@
 html[data-theme=light] .social-links.contact-social{--contact-ink:#001220;--contact-muted:rgba(0,18,32,.65)}
 @media(max-width:600px){.social-links.contact-social{max-width:330px;margin-top:30px}.contact-social .contact-platforms{gap:13px}.contact-tile-face{border-radius:17px}.contact-tile-back{border-radius:18px}.contact-social .contact-social-caption{margin-bottom:20px}}
 @media(prefers-reduced-motion:reduce){.contact-social a.contact-tile,.contact-social a.contact-tile:hover,.contact-social a.contact-tile:focus-visible{transform:none}.contact-social .contact-tile,.contact-tile-face>svg,.contact-tile-tooltip,.contact-tile-back{transition:none}}
+
+.contact-email-note{display:block;margin-top:11px;font-size:9px;letter-spacing:.3px;color:var(--contact-muted)}
