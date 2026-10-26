@@ -17,3 +17,7 @@ html[data-theme="light"] .profile-heading h2 i,html[data-theme="light"] .experie
 #about{scroll-margin-top:24px}
 @media(max-width:800px){.profile-layout{gap:0}}
 @media(max-width:720px){#about{scroll-margin-top:88px}}
+
+/* Download the supplied CV beside the existing profile contact link. */
+.profile-actions{display:grid;gap:16px;justify-items:start;flex-shrink:0}.profile-actions .profile-contact{margin-top:0}
+@media(max-width:480px){.profile-actions{margin-top:24px}}
