@@ -4,7 +4,7 @@ const escapeHtml = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const fallbackImage = '/dat-graphics/uploads/cover-nail-by-eyu.webp';
 let content={site:{},projects:[]}; let activeCategory='All';
 function setText(selector,value) {const e=$(selector);if(e)e.textContent=value||'';}
-function imageUrl(s) {return window.DAT_MEDIA?(window.DAT_MEDIA(s)||fallbackImage):typeof s==='string'&&(s.startsWith('/dat-graphics/assets/')||s.startsWith('/dat-graphics/uploads/'))?s:fallbackImage;}
+function imageUrl(s) {const url=window.DAT_MEDIA?(window.DAT_MEDIA(s)||fallbackImage):typeof s==='string'&&(s.startsWith('/dat-graphics/assets/')||s.startsWith('/dat-graphics/uploads/'))?s:fallbackImage;return window.DAT_PREVIEW_URL?.(url)||url;}
 function renderWork(){
  const published=content.projects.filter(p=>p.published); const cats=['All',...new Set(published.map(p=>p.category).filter(Boolean))];
  $('#workFilters').innerHTML=cats.map(cat=>`<button class="filter-chip ${cat===activeCategory?'active':''}" data-filter="${escapeHtml(cat)}">${escapeHtml(cat)}</button>`).join('');
@@ -109,4 +109,4 @@ function initEvents(){
    catch(err){status.textContent=err.message||'Could not send your message.'}finally{btn.disabled=false}
  });
 }
-(async()=>{try{content=window.DAT_DATA?await window.DAT_DATA.site():await fetch('/api/site').then(r=>{if(!r.ok)throw Error('Site unavailable');return r.json()});renderSite();renderWork();renderHeroGallery();initScroll();initEvents();}catch(err){console.error(err);$('#projectGrid').innerHTML='<div class="loading-project">Could not load the portfolio. Please refresh.</div>';}})();
+(async()=>{try{content=window.DAT_DATA?await window.DAT_DATA.site():await fetch('/api/site').then(r=>{if(!r.ok)throw Error('Site unavailable');return r.json()});renderSite();renderWork();renderHeroGallery();initScroll();initEvents();}catch(err){console.error(err);$('#projectGrid').innerHTML='<div class="loading-project">Could not load the portfolio. Please refresh.</div>';}finally{window.DAT_BOOT?.ready()}})();
