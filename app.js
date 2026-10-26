@@ -71,9 +71,7 @@ function renderSite(){
  setText('#footerNote',s.footerNote||'DESIGN WITH PURPOSE');
  if(s.portrait)$('#portrait').src=imageUrl(s.portrait);if(s.aboutImage)$('#aboutImage').src=imageUrl(s.aboutImage);if(s.aboutSecondaryImage)$('#aboutSecondaryImage').src=imageUrl(s.aboutSecondaryImage);
  $('#serviceList').innerHTML=(s.services||[]).map((sv,i)=>`<div class="service-row"><span class="num">${String(i+1).padStart(2,'0')}</span><div><h3>${escapeHtml(sv.title)}</h3><p>${escapeHtml(sv.desc)}</p></div><span class="arr">↗</span></div>`).join('');
- $('#socialLinks').innerHTML=['facebook','instagram','youtube','behance','dribbble','linkedin'].filter(k=>/^https:\/\//.test(s[k]||'')).map(k=>`<a href="${escapeHtml(s[k])}" target="_blank" rel="noopener noreferrer">${k.toUpperCase()} ↗</a>`).join('');
- if(s.contactEmail)$('#socialLinks').insertAdjacentHTML('beforeend',`<a href="mailto:${encodeURIComponent(s.contactEmail).replace('%40','@')}">EMAIL ↗</a>`);
- if(s.contactPhone){const phone=String(s.contactPhone).replace(/[^\d+]/g,'');if(phone)$('#socialLinks').insertAdjacentHTML('beforeend',`<a href="tel:${phone}">${escapeHtml(s.contactPhone)} ↗</a>`);}
+ window.DAT_CONTACT_LINKS?.render(s,$('#socialLinks'));
  setText('#contactIntro',`${s.location||'Addis Ababa, Ethiopia'} · Let’s talk brand identity, campaign artwork and social media content.`);
  const hasReel=!!s.showreel;
  $('#showreelBtn').innerHTML=`<span class="play-round">${hasReel?'▶':'↗'}</span><span>${hasReel?'WATCH SHOWREEL':'VIEW ARTWORK'}<small>${hasReel?'ART IN MOTION':'SELECTED DESIGN WORK'}</small></span>`;
