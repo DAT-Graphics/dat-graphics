@@ -1,6 +1,13 @@
 /* Readiness comes from rendered content, fonts and decoded page images. */
 (() => {
  'use strict';
+ // One introduction per site, per tab session. Internal pages never show it.
+ window.DAT_BOOT={ready(){}};
+ const pathname=window.location?.pathname||'/';
+ const base=window.DAT_CLOUD_CONFIG?.base||(pathname==='/admin'?'/admin':'/');
+ const entry=base.endsWith('/')?base:base+'/';
+ if(pathname!==base&&pathname!==entry&&pathname!==entry+'index.html')return;
+ try{const storage=window.sessionStorage,key='dat-intro-seen:'+base;if(storage?.getItem(key))return;storage?.setItem(key,'1')}catch{}
  const root=document.documentElement,started=performance.now(),reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
  let mounted=false,contentReady=false,finished=false,target=0,shown=0,frame=0,failed=0,overlay,counter,meter,label,skip;
  const previousInert=new Map();root.classList.add('dat-loading');
