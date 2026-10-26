@@ -67,12 +67,12 @@ function renderSite(){
  // Respect an intentional newline but keep provided text plain and safe.
  setText('#headline1',s.headline1||'Visual Stories');setText('#headline2',s.headline2||'for Brands that Matter.');
  setText('#tagline',s.tagline);const aboutTitle=$('#aboutTitle');const words=(s.aboutTitle||'Design with Purpose.').trim().split(' ');const last=words.pop()||'';aboutTitle.textContent=words.join(' ')+(words.length?' ':'');const accent=document.createElement('i');accent.textContent=last;aboutTitle.append(accent);renderAbout(s);
- setText('#availability',s.availability);setText('#footerName',(s.name||'Dagim Tesfaye Shewangizaw')+' — CREATIVE PORTFOLIO');
+ setText('#availability',s.availability);setText('#footerName',s.name||'Dagim Tesfaye Shewangizaw');
  setText('#footerNote',s.footerNote||'DESIGN WITH PURPOSE');
  if(s.portrait)$('#portrait').src=imageUrl(s.portrait);if(s.aboutImage)$('#aboutImage').src=imageUrl(s.aboutImage);if(s.aboutSecondaryImage)$('#aboutSecondaryImage').src=imageUrl(s.aboutSecondaryImage);
  $('#serviceList').innerHTML=(s.services||[]).map((sv,i)=>`<div class="service-row"><span class="num">${String(i+1).padStart(2,'0')}</span><div><h3>${escapeHtml(sv.title)}</h3><p>${escapeHtml(sv.desc)}</p></div><span class="arr">↗</span></div>`).join('');
- $('#socialLinks').innerHTML=['instagram','behance','dribbble','linkedin'].filter(k=>/^https:\/\//.test(s[k]||'')).map(k=>`<a href="${escapeHtml(s[k])}" target="_blank" rel="noopener noreferrer">${k.toUpperCase()} ↗</a>`).join('');
- if(s.contactEmail)$('#socialLinks').insertAdjacentHTML('beforeend',`<a href="mailto:${encodeURIComponent(s.contactEmail)}">EMAIL ↗</a>`);
+ $('#socialLinks').innerHTML=['facebook','instagram','youtube','behance','dribbble','linkedin'].filter(k=>/^https:\/\//.test(s[k]||'')).map(k=>`<a href="${escapeHtml(s[k])}" target="_blank" rel="noopener noreferrer">${k.toUpperCase()} ↗</a>`).join('');
+ if(s.contactEmail)$('#socialLinks').insertAdjacentHTML('beforeend',`<a href="mailto:${encodeURIComponent(s.contactEmail).replace('%40','@')}">EMAIL ↗</a>`);
  if(s.contactPhone){const phone=String(s.contactPhone).replace(/[^\d+]/g,'');if(phone)$('#socialLinks').insertAdjacentHTML('beforeend',`<a href="tel:${phone}">${escapeHtml(s.contactPhone)} ↗</a>`);}
  setText('#contactIntro',`${s.location||'Addis Ababa, Ethiopia'} · Let’s talk brand identity, campaign artwork and social media content.`);
  const hasReel=!!s.showreel;
